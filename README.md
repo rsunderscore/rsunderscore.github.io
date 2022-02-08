@@ -1,6 +1,7 @@
 ---
 layout: default
 title: RS_ github page
+permalink: index.html
 ---
 
 # rsunderscore.github.io
