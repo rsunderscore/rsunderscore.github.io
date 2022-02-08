@@ -12,3 +12,12 @@ gihtub hosted site
 - abs link to [npr](http://npr.org/)
 
 {{ page.date }} - Written by {{ page.author }}
+
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
