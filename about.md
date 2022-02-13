@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About RS_
-
+description: about page
 ---
 
-*Why rsunderscore?*  In my youth I was encourage to post in on online forum, but I was reluctant to put my name out there, and I like cheeky jokes, so I devised the shortest username the forum would except, a single underscore.  In most contexts this did not show up at all on the forum so the forum moderators were not impressed and asked me to change it.  So I added my initials in front.  I attempted to use rs_ as a username on other systems but most do not allow something so short or do not like the underscore character, so I spelled it out when necessary.
+**Why rsunderscore?**  In my youth, I was encourage to post in on online forum, but I was reluctant to put my name out there, and I like cheeky jokes, so I devised the shortest username the forum would allow, a single underscore.  In most contexts this did not show up at all on the forum so the forum moderators were not impressed and asked me to change it.  So I added my initials in front.  I attempted to use rs_ as a username on other systems but most do not allow something so short or do not like the underscore character, so I spelled it out when necessary.
 
-*Why now, why this web page?*  I obtained a Data Science mentor at my current employer who recommended that I increase my online presence to make it easier for employers to learn more about me.  Comment on linkedin, put code on github, and write blogs about projects if possible.  I have a vast library of code but all of it is propriertary to my employers so most of it cannot be shared.  In an effort to demonstrate some of what I know I'm in the process of devising hobby projects to post to github.  I attempted to blog about said projects on medium.com but have not been happy with their editor.  I noticed several packages I use were leveraging gihub.io for their documentation and that research led me here.
+**Why now, why this web page?**  I obtained a Data Science mentor at my current employer who recommended that I increase my online presence to make it easier for employers to learn more about me.  Comment on linkedin, put code on github, and write blogs about projects if possible.  I have a vast library of code but all of it is propriertary to my employers so most of it cannot be shared.  In an effort to demonstrate some of what I know I'm in the process of devising hobby projects to post to github.  I attempted to blog about said projects on medium.com but have not been happy with their editor.  I noticed several packages I use were leveraging gihub.io for their documentation and that research led me here.
 
 
 ### on privacy 

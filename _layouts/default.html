@@ -10,7 +10,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-{% seo %}
+{% seo %} <!-- search engine optimization -->
     {% include head-custom.html %}
   </head>
 
@@ -18,11 +18,19 @@
     <div id="container">
       <div class="inner">
 
-        <header>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <header> <a href="/"><img src = '/assets/images/sun_sm.svg' style="float:left" alt='logo image'/></a>
+		{{ ASSET_PATH }}
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+		  <table width = 100%>
+			  <tr><td><a href="/">HOME</a>
+				</td><td>about</td>
+				<td>blog</td>
+				<td>projects</td>
+			  </tr>
+		  </table>
         </header>
-        <section id="downloads" class="clearfix">
+        <!--<section id="downloads" class="clearfix">
           {% if site.show_downloads %}
           <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
           <a href="{{ site.github.tar_url }}" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
@@ -34,7 +42,7 @@
           <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
 	  {% endif %}
 	{% endif %}
-        </section>
+        </section>-->
         <hr>
         <section id="main_content">
           {{ content }}

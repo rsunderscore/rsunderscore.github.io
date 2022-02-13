@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: RS_ code and projects
+email: rsunderscore@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Code, Data, web projects, and more by Robert Sunderland (aka rsunderscore or RS_).
 baseurl: "" # the subpath of your site, e.g. /blog #baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
@@ -27,7 +27,7 @@ domain: rsunderscore.github.io #not here before       # if you want to force HTT
 url: "http://rsunderscore.gihub.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rsunderscore
 github_username:  rsunderscore
-
+author: RS_
 # Build settings
 theme: jekyll-theme-tactile
 plugins:
