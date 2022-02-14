@@ -12,22 +12,16 @@ Currently attempting to get my bearings and brush-up on web development so that 
 
 You can get my history on the [about](about.html) page if that is of interest to you.
 
-sit var: {{ site.email }}
 
 ## links
-- github main page
-- linkedin profile
-- FAIQ (Frequently Asked Interview Questions)
-	- talk about a time you were successful, what was the project and how did it improve things?
-	- talk about a time when you were not successful, what were the repercussions and how did you deal with them?
-	- how do you deal with conflict in the workplace?
-	- what is the importance of diversity?
-	- how do you handle situations where you have to follow a decision you don't agree with?
+- [github main page](github.com/rsunderscore)
+- [linkedin profile](https://www.linkedin.com/in/robert-sunderland-a072a457/)
+- [FAIQ](FAIQ.html) (Frequently Asked Interview Questions)
 
 ## Resume
 A [pdf version of my resume](Sunderland5 2021.pdf) is available.
 
-## Blog
+## Blog <a id="blog" ></a>
 Blog entries are listed below (most recent first).  
 
 <ul>
@@ -38,14 +32,29 @@ Blog entries are listed below (most recent first).
   {% endfor %}
 </ul>
 
-## Projects
+## Projects<a id='projects'></a>
 
 - [Higher Education Scorecard Analysis](highered)
 - Spanish NLP
 - Job Posting NLP
 
 ## to-do
-- [ ] research sassy css (used by jekyll sites)
+- [x] research sassy css (used by jekyll sites)
+	- sassy css is an extension of css which is an interpretted language compile to regular css by the sass executable
+		- can be set up to run on a specified file or to 'watch' a directory for changes
+	- two file types - both can reside in assets/css for the purpose of jekyll
+		- scss - this is the new format and is more css like in syntax
+			- statements end with ; and blocks are specified by braces {}
+		- sass - this is the older format which is more python-like
+			- no semicolon to end statements and blocks are indicated by indentation
+	- inheritance
+		- can include other files
+		- can define mixin tags that can be re-used
+	- variables
+		- can bet set to single values or whole sections of css
+		- set a width once and use it multiple times
+	- nesting - allows you to extend the definition for included elements by specifying another tag
+		- e.g. &-h1 would be an h1 tag inside the outer element (css version woudl require specifying the entire definition again)
 - [ ] FAIQ page
 
 the date for the page is {{page.date}} 
