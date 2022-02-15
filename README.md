@@ -1,22 +1,23 @@
 ---
 layout: default
-title: RS_ github page
+title: rsunderscore.github.io
 permalink: index.html
 author: RS_
 date: 2022-02-11
-description: main rs_ github page
+description: main portal page
 ---
 
-# main page for RS_ github
+
 Currently attempting to get my bearings and brush-up on web development so that I can make this site more robust.  Hopefully that will also help me with Flask and Django sites, if I find a place to host them in the future.  This page will act as a portal to project documentation, blog posts, and other resources as I find them.  
 
 You can get my history on the [about](about.html) page if that is of interest to you.
 
 
 ## links
-- [github main page](github.com/rsunderscore)
+- [github main page](http://github.com/rsunderscore)
 - [linkedin profile](https://www.linkedin.com/in/robert-sunderland-a072a457/)
 - [FAIQ](FAIQ.html) (Frequently Asked Interview Questions)
+- [medium.com blog](http://medium.com/@rsunderscore) initial attempts at blog posts - I might mirror some of these blogs on the other site
 
 ## Resume
 A [pdf version of my resume](Sunderland5 2021.pdf) is available.
@@ -55,7 +56,9 @@ Blog entries are listed below (most recent first).
 		- set a width once and use it multiple times
 	- nesting - allows you to extend the definition for included elements by specifying another tag
 		- e.g. &-h1 would be an h1 tag inside the outer element (css version woudl require specifying the entire definition again)
-- [ ] FAIQ page
+- [x] FAIQ page
+- [ ] [Alembic](https://github.com/daviddarnes/alembic) theme?
+	- font is called Merriweather on fonts.google.com
 
 the date for the page is {{page.date}} 
 

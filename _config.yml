@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: RS_ code and projects
+title: Code and Projects
 email: rsunderscore@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Code, Data, web projects, and more by Robert Sunderland (aka rsunderscore or RS_).

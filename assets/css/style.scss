@@ -2,7 +2,7 @@
 ---
 /*Note: If you'd like to change the theme's Sass variables, you must set new values before the @import line in your stylesheet.*/
 @import "{{ site.theme }}";
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 /*Add any custom CSS (or Sass, including imports) you'd like immediately after the @import line*/
 
 /*original
@@ -14,6 +14,11 @@ header h1 {
   letter-spacing: -1px;
 }*/
 header h1 {
+	font-family: 'Merriweather', serif;
 	font-size: 36px;
 	margin:0;
+}
+
+header h2 {
+	font-family: 'Merriweather', serif;
 }
