@@ -57,8 +57,10 @@ Blog entries are listed below (most recent first).
 	- nesting - allows you to extend the definition for included elements by specifying another tag
 		- e.g. &-h1 would be an h1 tag inside the outer element (css version woudl require specifying the entire definition again)
 - [x] FAIQ page
-- [ ] [Alembic](https://github.com/daviddarnes/alembic) theme?
+- [x] [Alembic](https://github.com/daviddarnes/alembic) theme
 	- font is called Merriweather on fonts.google.com
+	- [tactile theme source link](https://github.com/pages-themes/tactile)
+- [ ] change link colors
 
 the date for the page is {{page.date}} 
 
