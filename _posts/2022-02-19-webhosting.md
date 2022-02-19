@@ -5,11 +5,6 @@ tags: python web flask django
 author: RS_
 ---
 
-# Python web hosting
-by {{page.author}}
-{{ page.date }}
-
-
 One of my goals was to create a web site to facilitate blog posts, because medium.com was not syntax highlighting the code.  Syntax highlights for code on implicit on the github.io site.  One of my other web hosting goals is to set up interactive web applications.  But since github.io is only for static sites, that isn't an option.  My machine learning book has a chapter on deploying machine learning models using flask, and leveraged pythonanywhere.com as the hosting solution.  Pythonanywhere is free for basic implementations but I wanted to do some research and gather other options and compile the information here so that I could refer back when the time comes.
 
 ### Starting with 'best-of' lists:
