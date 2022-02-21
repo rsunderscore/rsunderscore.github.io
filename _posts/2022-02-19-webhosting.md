@@ -40,7 +40,7 @@ One of my goals was to create a web site to facilitate blog posts, because mediu
 - interserver - $6/mo – webuzo(replaced CLI?)
 - kamatera - $4/mo – SSD, hourly
 - hostinger (mentioned as best in summary but no detail)
-- a2 – no django (only flask)
+- a2 – no django (only flask)?
 - siteground – only Python2?
 - Liquidweb - $15/mo - hands-off
 - hostpapa - $20/mo - 
@@ -70,11 +70,43 @@ One of my goals was to create a web site to facilitate blog posts, because mediu
 - Flask and Django support
 
 
-### Heroku
+### [Heroku](https://www.heroku.com/python) ([dev docs](https://devcenter.heroku.com/articles/getting-started-with-python))
+- Postgres sql
+- owned by salesforce
+- Flask or Django
+- Free 
+        - 1 dyno
+	- Sleeps when inactive 30 mins
+        - 10k rows db
+        - 2 process types
+- $7/mo tier "Hobby"
+	- Ssl
+	- metrics
+	- no sleep
+	- 10 process types
+- next tier up is $25/mo
+- Heroku CLI
+- GitHub integration
+        - deploy to heroku as remote (instead of origin)
 
-### a2
+### [a2](https://www.a2hosting.com/python-hosting) - site is difficult to navigate and marketing is directed at wordpres
+- Django or flask
+- MySQL
+- 100gb storage
+- Python version? Header says 3.2. 3.4 shown in other sections.  In admin guide for python version selection 3.7. compile from source example for 3.8, also mentioned in the article about setting python venv with a script. 
+- ssl
+- versions list: PHP 5.6, 7.1, 7.2, 7.3, 7.4 or 8.0 (Choose Your Version); MySQL 5.6/MariaDB; PostgreSQL 9.6; <span style="color:red; font-weight: bold;">Python 3.4</span>     PERL 5.10; Apache 2.4; Node.js 12; FTP / SFTP; Free SSH Access; SSL & Free SSL
+- Website builder
 
 ### bluehost
+- $2.75/mo (promotion) $10/mo regular
+	- 1 website
+	- 50GB storage
+	- free domain
+	- SSL
+	- CDN
+- $5/mo promotion ($15/mo regular)
+	- unlimited websites
 
 ### [google cloud hosting](https://cloud.google.com/python/)
 - using [google cloud for python](https://cloud.google.com/python/docs/getting-started)
@@ -90,3 +122,4 @@ One of my goals was to create a web site to facilitate blog posts, because mediu
 ## Glossary
 VPS – [virtual private server](https://en.wikipedia.org/wiki/Virtual_private_server) – usu single VM on shared host – user has root access; I expect this means you would need to install/maintain your own web server instance in addition to all the python packages and frameworks need for the app itself
 VDS – virtual dedicates server
+CDN - [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) geographically distributed proxy servesr to increase performance, typically hosted in ISP datacenter
