@@ -7,7 +7,23 @@ author: RS_
 
 One of my goals was to create a web site to facilitate blog posts, because medium.com was not syntax highlighting the code.  Syntax highlights for code on implicit on the github.io site.  One of my other web hosting goals is to set up interactive web applications.  But since github.io is only for static sites, that isn't an option.  My machine learning book has a chapter on deploying machine learning models using flask, and leveraged pythonanywhere.com as the hosting solution.  Pythonanywhere is free for basic implementations but I wanted to do some research and gather other options and compile the information here so that I could refer back when the time comes.
 
+A few of the hosts use older python versions (e.g. a2 and bluehost): because it comes with their OS deploy or perhaps by choice. Most Linux distros shipped with python 2.7 even though Python ended their support in 2020.  Presumably this is because you don't need the latest features to do basic OS scripting and that is largely what they need to support.  For web development puposes this means we might need to upgrade/install a newer version, which might require a higher tier of hosting or VPS.  If we also have to support our custom installs, rather than focus on support for the web app; this becomes very unattractive.
+
+I perused a few 'best-of' articles to look for services that were well-liked.  Most of these sites are unfamiliar to me, and not backed by major publications; so I did my own research for the companies listed to verify the features and pricing.  It was difficult to get similar data points from each site, even moreso for python hosting details as this was not the primary offering for most of the companies.  Based on this I assume that these companies drive to get your static web hosting account and then leverage whatever app platform is available when the time comes.   Web apps are likely to be for companies that have the additional resources to adapt the offering supported or buy a separate service.
+
+### desired features
+- python 3.8
+- apache 2.0
+- SSL
+- domain
+- support for both flask and django
+- deploy from github
+- DB offering
+- simplicity
+
 ### Starting with 'best-of' lists:
+
+
 [12 best python hosting services](https://www.hostingadvice.com/how-to/best-python-hosting/) - warns agains free hosting – 'python apps won't run optimally'... security, no plugins
 - siteground - $3.99/mo – SSL, business email
 - bluehost – $2.95/mo – website builder/templates, SSL, $7.99/mo, free domain
@@ -123,4 +139,5 @@ One of my goals was to create a web site to facilitate blog posts, because mediu
 ## Glossary
 VPS – [virtual private server](https://en.wikipedia.org/wiki/Virtual_private_server) – usu single VM on shared host – user has root access; I expect this means you would need to install/maintain your own web server instance in addition to all the python packages and frameworks need for the app itself
 VDS – virtual dedicates server
+
 CDN - [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) geographically distributed proxy servesr to increase performance, typically hosted in ISP datacenter
