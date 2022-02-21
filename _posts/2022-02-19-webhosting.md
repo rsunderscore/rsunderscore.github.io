@@ -98,7 +98,8 @@ One of my goals was to create a web site to facilitate blog posts, because mediu
 - versions list: PHP 5.6, 7.1, 7.2, 7.3, 7.4 or 8.0 (Choose Your Version); MySQL 5.6/MariaDB; PostgreSQL 9.6; <span style="color:red; font-weight: bold;">Python 3.4</span>     PERL 5.10; Apache 2.4; Node.js 12; FTP / SFTP; Free SSH Access; SSL & Free SSL
 - Website builder
 
-### bluehost
+### [bluehost](https://www.bluehost.com/help/article/python-installation)
+"uses the default python version that comes with [CentOS](https://www.centos.org/) by default" - currently av v7-2009 (assuming it is not Python3 given the number of articles on how to install) - not sure if lower tier offerings support a python installation (VPS start at $19/mo).
 - $2.75/mo (promotion) $10/mo regular
 	- 1 website
 	- 50GB storage
