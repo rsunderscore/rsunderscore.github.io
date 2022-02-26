@@ -4,13 +4,13 @@ title: rsunderscore.github.io
 permalink: index.html
 author: RS_
 date: 2022-02-11
-description: main portal page
+description: 
 ---
 
 
 Currently attempting to get my bearings and brush-up on web development so that I can make this site more robust.  Hopefully that will also help me with Flask and Django sites, if I find a place to host them in the future.  This page will act as a portal to project documentation, blog posts, and other resources as I find them.  
 
-You can get my history on the [about](about.html) page if that is of interest to you.
+You can get my history on the [about](about.html) page if that is of interest to you. Or check out the [pdf version of my resume](Sunderland5 2021.pdf).
 
 
 ## links
@@ -19,16 +19,13 @@ You can get my history on the [about](about.html) page if that is of interest to
 - [FAIQ](FAIQ.html) (Frequently Asked Interview Questions)
 - [medium.com blog](http://medium.com/@rsunderscore) initial attempts at blog posts - I might mirror some of these blogs on the other site
 
-## Resume
-A [pdf version of my resume](Sunderland5 2021.pdf) is available.
-
 ## Blog <a id="blog" ></a>
 Blog entries are listed below (most recent first).  
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> by {{post.author | default: site.author}} - {{post.date | date: "%Y-%m-%d"}}
+      <a href="{{ post.url }}">{{ post.title }}</a>  {{post.date | date: "%Y-%m-%d"}}
     </li>
   {% endfor %}
 </ul>
@@ -60,11 +57,13 @@ Blog entries are listed below (most recent first).
 - [x] [Alembic](https://github.com/daviddarnes/alembic) theme
 	- font is called Merriweather on fonts.google.com
 	- [tactile theme source link](https://github.com/pages-themes/tactile)
-- [ ] change link colors
+- [x] change link colors
 
+
+{% comment %}
 the date for the page is {{page.date}} 
-
-Written by {{ page.author }}
+Written by {{ page.author }} 
+{% endcomment %}
 
 test image below
 
