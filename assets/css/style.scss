@@ -34,10 +34,24 @@ a {
 a:hover {
   color: #000cc5;
 }
+/*original
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #6d6d6d;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+}
+
+
+*/
+
 
 body {
   font-family: 'Merriweather', Helvetica, Arial, serif;
   color: #424242;
+  background: #e7e7e7 ;
   
 }
 /* original
