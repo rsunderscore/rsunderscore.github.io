@@ -30,9 +30,11 @@ header td {
 
 a {
   color: #4c4c03;
+  text-decoration: underline;
 }
 a:hover {
   color: #000cc5;
+  text-decoration: none;
 }
 /*original
 body {
